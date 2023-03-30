@@ -1,0 +1,58 @@
+#divcolor {
+    width: 400px;
+    height: 400px;
+}
+
+@media (min-width: 1367px) and (max-width: 1920px){
+    #divcolor {
+        background-color: yellow;
+    }
+    #divcolor h1:after {
+        content: "Amarelo";
+    }
+}
+
+@media (min-width: 1081px) and (max-width: 1366px){
+    #divcolor {
+        background-color: blue;
+    }
+    #divcolor h1:after {
+        content: "Azul";
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1080px){
+    #divcolor {
+        background-color: red;
+    }
+    #divcolor h1:after {
+        content: "vermelho";
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    #divcolor {
+        background-color: pink;
+    }
+    #divcolor h1:after {
+        content: "Rosa";
+    }
+}
+
+@media (min-width: 501px) and (max-width: 768px){
+    #divcolor {
+        background-color: orange;
+    }
+    #divcolor h1:after {
+        content: "Laranja";
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #divcolor {
+        background-color: gray;
+    }
+    #divcolor h1:after {
+        content: "Cinza";
+    }
+}
