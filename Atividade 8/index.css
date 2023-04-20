@@ -30,14 +30,14 @@ body {
   .questionario button {
     margin-top: 10px;
     padding: 5px;
-    background-color: #007bff;
+    background-color: #494949;
     color: #fff;
     border: none;
     cursor: pointer;
   }
   
   .questionario button:hover {
-    background-color: #0062cc;
+    background-color: #494949;
   }
   
   .resultados {
