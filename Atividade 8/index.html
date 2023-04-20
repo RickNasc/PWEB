@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Questionário</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Questionário</h1>
+  <div class="questionario">
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" placeholder="Digite a idade"><br>
+
+    <label for="sexo">Sexo:</label>
+    <select id="sexo">
+      <option value="M">Masculino</option>
+      <option value="F">Feminino</option>
+    </select><br>
+
+    <label for="opiniao">Opinião:</label>
+    <select id="opiniao">
+      <option value="1">Péssimo</option>
+      <option value="2">Regular</option>
+      <option value="3">Bom</option>
+      <option value="4">Ótimo</option>
+    </select><br>
+
+    <button id="adicionar">Adicionar</button>
+    <button id="limpar">Limpar resultados</button>
+  </div>
+
+  <div class="resultados">
+    <h2>Resultados</h2>
+    <p>Média de idade: <span id="media-idade"></span></p>
+    <p>Idade da pessoa mais velha: <span id="max-idade"></span></p>
+    <p>Idade da pessoa mais nova: <span id="min-idade"></span></p>
+    <p>Quantidade de pessoas que responderam péssimo: <span id="qtd-pessimo"></span></p>
+    <p>Porcentagem de pessoas que responderam ótimo e bom: <span id="perc-otimo-bom"></span></p>
+    <p>Quantidade de mulheres que responderam: <span id="qtd-mulheres"></span></p>
+    <p>Quantidade de homens que responderam: <span id="qtd-homens"></span></p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

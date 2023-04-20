@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .questionario {
+    margin: 20px auto;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .questionario label {
+    display: inline-block;
+    width: 60px;
+  }
+  
+  .questionario input,
+  .questionario select {
+    margin: 5px 0;
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .questionario button {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .questionario button:hover {
+    background-color: #0062cc;
+  }
+  
+  .resultados {
+    margin: 20px auto;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .resultados h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .resultados p {
+    margin: 5px 0;
+  }
+  
+  .resultados span {
+    font-weight: bold;
+  }
+  
+  .resultados button {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .resultados button:hover {
+    background-color: #c82333;
+  }
+  
